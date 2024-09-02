@@ -39,10 +39,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BottomnavigationcomposesampleTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+
                 }
             }
         }
